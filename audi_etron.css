@@ -1,0 +1,165 @@
+body
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    padding: 0;
+}
+
+.background_etron
+{
+    background-image: url('img/etron.jpg');
+    width: 100%;
+    height: 80vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_etron h3
+{   
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+.etron
+{
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+
+.etron h4
+{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.right-text h4
+{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 20px;
+}
+
+.right-text
+{
+    width: 55%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.picture-half img
+{
+    height: 450px;
+    width: 800px;
+    display: flex;
+    float: right;
+    margin-right: 50px;
+   
+}
+
+.picture-half-1 img
+{
+    height: 450px;
+    width: 800px;
+    display: flex;
+    float: left;
+    margin-left: 50px;
+   
+}
+
+.left-text
+{
+    width: 55%;
+    text-align: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
+    float:left;
+}
+
+.left-text h4
+{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 90px;
+    margin-bottom: 20px;
+}
+
+.video
+{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.video iframe
+{
+    width: 1600px;
+    height: 800px;
+}
+
+.fotter
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    
+}
+
+.fotter img
+{
+    margin-right: 2px;
+}
+
+
+@media screen and (max-width: 1600px)
+{
+    .video iframe
+{
+    width: 1200px;
+    height: 600px;
+}
+
+}
+
+
+@media screen and (max-width: 1300px)
+{
+.video iframe
+    {
+    width: 800px;
+    height: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 900px)
+{
+    .video iframe
+{
+    width: 400px;
+    height: 250px;
+}
+
+}

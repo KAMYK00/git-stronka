@@ -1,0 +1,239 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    padding: 0;
+   
+}
+
+
+
+
+.background_audia1
+{
+    background-image:url('img/audi_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+
+
+
+.elektryk
+{
+    height: 100vh;
+
+}
+
+.elektryk_title img
+{
+    margin-top: 10%;
+    margin-left: 5%; 
+}
+
+
+
+.elektryk_title h4
+{
+    font-size: 3rem;
+    text-align: center;   
+}
+
+.titleq4
+{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-left: 5%;
+}
+
+.titleq4 button
+{
+    padding: 20px;
+    margin-top: 10px;
+    width: 140%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.titleq4 button:hover
+{
+   
+    background-color: rgb(211, 207, 207);
+}
+
+.elektryk_title
+{
+    display: flex;
+   
+}
+
+.background_audia5
+
+{
+    background-image:url('img/audi_5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    margin-bottom: 10px;
+}
+
+.background_audia8
+
+{
+    background-image:url('img/audi_8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+.footera8
+{
+    padding: 20px;
+    font-size: 12px;
+}
+
+.title
+{
+    display: flex;
+    margin-left: 10%;
+}
+
+.title h2
+{
+    font-size: 3rem;
+}
+
+button
+{
+    padding: 20px;
+    margin-left: 10%;
+    font-size: 1.1em;
+    background-color: gray;
+    border: none;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+button:hover
+{
+  background-color: rgb(112, 112, 112);
+
+}
+
+
+@media screen and (max-width: 1400px)
+{
+    .title h2
+    {
+        font-size: 2rem;
+    }
+
+    .elektryk_title img 
+    {
+        width: 680px;
+        height: 400px;
+    }
+
+   
+}
+
+@media screen and (max-width: 1300px)
+{
+    .title h2
+    {
+        font-size: 2rem;
+    }
+
+    .elektryk_title img 
+    {
+        width: 550px;
+        height: 300px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1200px)
+{
+    .title h2
+    {
+        font-size: 2rem;
+    }
+    .elektryk_title
+    {
+        flex-direction: column;
+        
+    }
+    .elektryk_title img 
+    {
+        width: 800px;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .titleq4
+    {
+     justify-content: center;
+     align-items: center;
+     margin-top: 60px;
+
+        
+    }
+    .titleq4 h4
+    {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .titleq4 button
+    {
+        width: 140%;
+        margin-left: -10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 850px)
+{
+    
+    .elektryk_title img 
+    {
+        width: 500px;
+        height: 250px;   
+    }
+}
+
+
+@media screen and (max-width: 600px)
+{
+    
+    .elektryk_title img 
+    {
+        width: 450px;
+        height: 250px;   
+    }
+}
